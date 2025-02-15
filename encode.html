@@ -102,24 +102,32 @@
             color: rgb(0, 0, 0);
         }
 
-        
+        .contenedor {
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 20px;
+        }
+        .columna {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+        }
+        @media (max-width: 768px) {
+            .columna {
+                width: 100%;
+            }
+        }
 
 
   </style>
 </head>
 <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <div class="container">
     <div class="header">
       <nav>
-        <a href="about.html">
-          <img src="about.png" alt="about" width="30" height="30">
-      </a> <a href="politics.html">
-          <img src="politics.png" alt="politics" width="30" height="30">
-      </a> <a href="blog.html">
-          <img src="blog.png" alt="Blog" width="30" height="30">
-      </a> <a href="https://discord.gg/uqbZXnaW">
-          <img src="Support.png" alt="Discord Server/Support" width="30" height="30">
-      </a>
+        <a href="about.html"><img src="about.png" alt="about" width="30" height="30"></a> <a href="politics.html"><img src="politics.png" alt="politics" width="30" height="30"></a> <a href="blog.html"><img src="blog.png" alt="Blog" width="30" height="30"></a> <a href="https://discord.gg/uqbZXnaW"><img src="Support.png" alt="Discord Server/Support" width="30" height="30"></a>
       </nav>
     </div>
     <div class="main-content">
@@ -133,7 +141,6 @@
     </div>
     <p>Encode is a business that does everything possible to ensure<br>
     that one person's work is not stolen by another.</p><a href="what%20we%20do.html" class="button">What we do</a> <a href="buy.html" class="button">Buy</a> <img src="Payment%20vid.gif" alt="Payment%20vid"></div><img src="graphic.jpeg" alt="graphic"></div>
-  <p></p>
   </div>
 </body>
 </html>
